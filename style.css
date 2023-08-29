@@ -1,0 +1,120 @@
+/* Fontes */
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Icones */
+
+    @import url('https://unpkg.com/css.gg@2.0.0/icons/css/user.css');
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body style */
+
+body {
+    background-image: linear-gradient(to right, #bbe7f5, rgb(252, 157, 173));
+}
+
+main .container {
+    max-width: 300px;
+    width: 100%;
+    margin: 110px auto;
+    height: 450px;
+    display: block;
+    text-align: start;
+    border-radius: 5px;
+    padding: 36px 18px;
+    box-shadow: 0px 0px 15px rgb(110, 110, 110);
+    background-color: #fff;
+}
+
+main .container h1 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+main .container input {
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 265px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    background-color: transparent;
+}
+
+main .container input:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(145, 16, 38);
+}
+
+main .container .submit {
+    margin-top: 12px;
+    width: 265px;
+    height: 32px;
+    background-image: linear-gradient(to right, rgb(255, 120, 142), rgb(250, 72, 101));
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+main .container .submit:hover {
+    background-image: linear-gradient(to right, rgb(252, 147, 165), rgb(255, 97, 123));
+}
+
+main .container p {
+    text-align: center;
+    margin: 18px 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+main .container .tt {
+    width: 265px;
+    height: 35px;
+    margin-bottom: 12px;
+    color: #fff;
+    background-color: rgb(48, 186, 250);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding-right: 10px;
+}
+
+main .container .tt:hover {
+    background-color: rgb(103, 207, 255);
+}
+
+main .container .face {
+    width: 265px;
+    height: 35px;
+    margin-bottom: 36px;
+    color: #fff;
+    background-color: rgb(36, 106, 138);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+main .container .face:hover {
+    background-color: rgb(68, 127, 155);
+}
+
+main .container a {
+    margin-left: 75px;
+    text-decoration: none;
+}
+
+main .container a:hover {
+    border-bottom: 1px solid;
+}
